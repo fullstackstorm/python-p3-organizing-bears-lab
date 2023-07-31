@@ -35,7 +35,6 @@ select_youngest_bear_and_returns_name_and_age = """
         bears.name,
         bears.age
     FROM bears
-    WHERE alive = true
     ORDER BY age ASC
     LIMIT 1;
 """
